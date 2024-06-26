@@ -1,0 +1,10 @@
+.subjectoutlineleft{
+    background-color: rgb(114, 2, 2);
+    text-align: left;
+    /* text-align: right; */
+    margin-right: 40%;
+}
+.dataleft{
+    text-align: left;
+    justify-content: center;
+}
