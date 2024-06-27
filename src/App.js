@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import SubjectOutline from './components/SubjectOutline';
 import SubjectOutlineleft from './components/SubjectOutlineleft';
+import Footer from './components/Footer';
 function App() {
   
   const ai="Artificial intelligence (AI), in its broadest sense, is intelligence exhibited by machines, particularly computer systems. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and uses learning and intelligence to take actions that maximize their chances of achieving defined goals.[1] Such machines may be called AIs."
@@ -19,7 +20,7 @@ function App() {
         <SubjectOutline subject="Cloud" data={cloud}/>
         <SubjectOutlineleft subject="Disruption" data={disruption}/>
         <SubjectOutline subject="Digital Transformation" data={digitalTransfrm}/>
-        
+        <Footer/>
       </header>
     </div>
   );
