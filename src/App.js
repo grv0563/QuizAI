@@ -18,10 +18,15 @@ function App() {
         <Navbar/>
         <HomeBanner/>
         <SubjectOutline subject="AI" data={ai}/>
+        <a style={{textAlign:'right'}} href='https://grvnotes.com'> more</a>
         <SubjectOutlineleft subject="Blockchain" data={bc} />
+        <a style={{textAlign:'left'}} href='https://grvnotes.com'> more</a>
         <SubjectOutline subject="Cloud" data={cloud}/>
+        <a style={{textAlign:'right'}} href='https://grvnotes.com'> more</a>
         <SubjectOutlineleft subject="Disruption" data={disruption}/>
+        <a style={{textAlign:'left'}} href='https://grvnotes.com'> more</a>
         <SubjectOutline subject="Digital Transformation" data={digitalTransfrm}/>
+        <a style={{textAlign:'right'}} href='https://grvnotes.com'> more</a>
         <Footer/>
       </header>
     </div>

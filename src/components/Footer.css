@@ -1,4 +1,20 @@
 .homefooter{
+    display: block;
+}
+.sociallinks{
     display: flex;
-    
+    height: 10%;
+}
+.linkedin{
+background-color: aqua;
+height: 100px;
+}
+.github{
+background-color: #031a5a;
+}
+.instagram{
+background-color: blueviolet;
+}
+.copyright{
+    text-align: center;
 }
